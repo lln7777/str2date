@@ -48,7 +48,3 @@ console.log(str2date('1个月前').toLocaleString())
 console.log(str2date('1年前').toLocaleString())
 console.log(str2date('刚刚').toLocaleString())
 ```
-
-## 时间转字符
-
-推荐 moment.js

@@ -1,0 +1,24 @@
+{
+  "name": "str2date",
+  "version": "0.1.0",
+  "description": "将中文格式的时间字符串转换为Date类型",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "parsetime",
+    "str2time",
+    "str2date"
+  ],
+  "author": "Ansel Chen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lln7777/str2date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lln7777/str2date/issues"
+  },
+  "homepage": "https://github.com/lln7777/str2date"
+}

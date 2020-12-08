@@ -1,6 +1,6 @@
 {
   "name": "str2date",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "将中文格式的时间字符串转换为Date类型",
   "main": "index.js",
   "scripts": {

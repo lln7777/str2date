@@ -22,6 +22,7 @@ console.log(str2date('16天前').toLocaleString())
 console.log(str2date('1个月前').toLocaleString())
 console.log(str2date('1年前').toLocaleString())
 console.log(str2date('刚刚').toLocaleString())
+console.log(str2date('20200811').toLocaleString())
 
 console.log(str2date('xxxx').toLocaleString())
 console.log(str2date('adfsadfdf').toLocaleString())

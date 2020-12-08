@@ -29,6 +29,7 @@
 
     var beforeReg = /(\d+)\s*[^\s]{0,1}(年|个月|月|周|星期|天|小时|分|分钟|秒|秒钟)前/
     var justNowReg = /刚刚/
+    var allNumberReg = /(\d{4})(\d{2})(\d{2})/
     var beforeMatches = str.match(beforeReg)
     if (beforeMatches) {
       var n = beforeMatches[1]
@@ -55,6 +56,8 @@
       }
     } else if (justNowReg.test(str)) {
       datetime = new Date()
+    } else if (allNumberReg.test(str)) {
+      datetime = new Date(str.replace(allNumberReg, (_, p1,p2,p3)=>[p1,p2,p3].join('/')))
     } else {
       datetime = new Date(str)
       if (isNaN(datetime)) {
